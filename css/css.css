@@ -49,7 +49,7 @@ a:hover { text-decoration: underline; }
 
 #search input[type=text] {
   width: 75%;
-  height: 38px;
+  height: 40px;
 	-webkit-appearance: none;
 	border: 0;
 	background: #000;
