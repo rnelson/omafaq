@@ -16,7 +16,7 @@ function omahelp() {
 }
 
 function showResults() {
-  data = '<img src="img/stothert-small.jpg"/><div class="results-text">We\'ve determined that you should call <a href="http://mayors-office.cityofomaha.org/index.php/mayor-s-hotline">the Mayor\'s Hotline</a> at <span class="results-number">402-444-5238</span>! <a href="#" onclick="return reset();">Search again</a></div>';
+  data = '<img src="img/stothert-small.jpg"/><div class="results-text">We\'ve determined that you should call <a href="http://mayors-office.cityofomaha.org/index.php/mayor-s-hotline">the Mayor\'s Hotline</a> at <span class="results-number">402-444-5555</span>! <a href="#" onclick="return reset();">Search again</a></div>';
   
   var content = $('#results');
   content.empty();
