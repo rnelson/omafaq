@@ -1,8 +1,10 @@
 html, body {
+	background: #222;
+	color: #ccc;
   font-size: large;
 	height: 100%;
 	width: 100%;
-	font-family: Georgia, Times, "Times New Roman", serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #container { 
@@ -19,13 +21,19 @@ html, body {
   top: 50%;
 }
 
+a { color: #5CCD00; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
 #header {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #header .header-title {
+	color: #999;
   font-size: 88pt;
 }
+
+#header .header-title .header-title-bright { color: #fff; }
 
 #header .header-subtitle {
   font-size: 26pt;
@@ -42,6 +50,11 @@ html, body {
 #search input[type=text] {
   width: 75%;
   height: 38px;
+	-webkit-appearance: none;
+	border: 0;
+	background: #000;
+	color: #ccc;
+	padding: 0 5px; 
 }
 
 #search input[type=submit] {
@@ -70,6 +83,10 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+#results img {
+	float: left;
+}
+
 #results .loading {
   font-size: 30pt;
   padding-left: 20px;
@@ -77,8 +94,12 @@ html, body {
 
 #results .results-text {
   float: left;
+  padding: 15px;
+  width: 75%;
 }
 
 #results .results-number {
   font-weight: bolder;
 }
+
+#results a:last-of-type { margin-top: 10px; clear: both; float: left; }
